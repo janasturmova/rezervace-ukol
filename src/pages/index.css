@@ -1,0 +1,98 @@
+.summary {
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.summary__head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.summary__photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.summary__head-property,
+.summary__head-room {
+  flex: 1;
+  text-align: center;
+}
+
+.summary__name1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #16a085;
+}
+
+.summary__name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #8e44ad;
+}
+
+.summary__address,
+.summary__city,
+.summary__rating,
+.summary__room-type,
+.summary__room-price,
+.summary__number,
+.summary__dates,
+.summary__guests,
+.summary__services,
+.summary__room-total,
+.summary__check-in,
+.summary__check-out {
+  margin-top: 0.5rem;
+}
+
+.summary__address,
+.summary__city {
+  color: #8e44ad;
+}
+
+.summary__rating {
+  color: #e67e22;
+}
+
+.summary__room-type,
+.summary__room-price {
+  color: #16a085;
+}
+
+.summary__detail,
+.summary__services,
+.summary__cancel {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.summary__service {
+  margin-top: 0.5rem;
+  color: #d35400;
+}
+
+.summary__cancel-text p {
+  margin-top: 0.5rem;
+}
+
+.summary__services > h3 {
+  color:#d35400;
+}
